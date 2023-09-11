@@ -3,6 +3,7 @@ p=turtle.Turtle()
 p.pensize(5)
 p.speed(0)
 
+
 def square():
     for i in range(4):
         p.forward(40)
@@ -16,7 +17,7 @@ for i in range(8):
 
     for x in range(8):
         if (x+i)%2 == 0:
-           color = "black"
+           color = "pink"
         else:
             color = "white"
 
